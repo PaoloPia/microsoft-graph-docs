@@ -118,7 +118,7 @@ The following are some app scenarios using the `User` and `Group` resources and 
 | App wants to read all content in all unified groups, including files, conversations.  It also needs to show group memberships, be able to update group memberships, (if owner).  |  _Group.Read.All_ | `Read items in all site collections`, `Read all groups`|
 | App wants to read and write all content in all unified groups, including files, conversations.  It also needs to show group memberships, be able to update group memberships, (if owner).  | 	_Group.ReadWrite.All_, _Sites.ReadWrite.All_ |  `Read and write all groups`, `Edit or delete items in all site collections` |
 | App wants to discover (find) a unified group. It allows the user to search for a particular group and choose one from the enumerated list to allow the user to join the group.	 | _Group.ReadWrite.All_ | `Read and write all groups`|
-| App wants to create a group through AAD Graph | 	_Group.ReadWrite.All_ | `Read and write all groups`|
+| App wants to create a group through AAD Graph | 	_Group.ReadWrite.All_,_Directory.AccessAsUser.All_ | `Read and write all groups`,`Access directory as the signed-in user`|
  
 
 <!---	##Additional Resources##
